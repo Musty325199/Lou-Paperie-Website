@@ -7,9 +7,9 @@ const Blog = () => {
   return (
     <div className="w-full px-5 flex items-center gap-10 my-10 flex-col" id='blog'>
       <h1 className="text-5xl font-light font-raleway">My Paper Blog</h1>
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 px-10 mx-10 gap-5 font-roboto">
+      <div className="w-full grid grid-cols-1 md:grid-cols-2 md:px-10 mx-5 md:mx-10 gap-10 font-roboto">
         {blogs.map((blog) => (
-          <div key={blog.id} className="border border-black cursor-pointer">
+          <div key={blog.id} className="border border-black cursor-pointer pb-5">
             <img src={blog.image} alt={blog.name} className="w-full" />
             <div className="px-5 flex gap-5 mt-3">
               <div className="rounded-full border border-black flex items-center justify-center h-8 w-8">
@@ -32,7 +32,7 @@ const Blog = () => {
               </div>
               <p>likes</p>
             </div>
-            <Link to={`/blog-page/${blog.id}`} className="text-blue-500 px-5 pb-5">Read More</Link>
+            <Link to={`/blog-page/${blog.id}`} className="text-gray-800 underline px-5 pb-5">Read More</Link>
           </div>
         ))}
       </div>

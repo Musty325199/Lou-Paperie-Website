@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center gap-5 justify-center mt-5 md:mt-0 md:m-[4.5rem] md:w-[90%]">
         <div className='w-full px-5 flex items-center gap-10 flex-col'>
-            <h1 className='text-5xl font-light font-raleway mt-10'>Shop Collections</h1>
-            <div className='w-full md:px-0 mr-10 md:mr-0 px-5 gap-5 py-10 grid md:grid-cols-4 grid-cols-1'>
+            <h1 className='text-4xl md:text-5xl font-light font-raleway mt-10'>Shop Collections</h1>
+            <div className='w-full md:px-0 mr-10 md:mr-0 px-5 gap-10 py-10 grid md:grid-cols-4 grid-cols-1'>
                 {
                     categories.map((item,index)=>{
                       return (
