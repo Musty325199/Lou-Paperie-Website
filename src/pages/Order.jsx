@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 const Order = ({ order }) => {
     const navigate = useNavigate()
   return (
-    <div className="container font-roboto mx-auto py-8 px-4 md:px-16 lg:px-24">
+    <div className="container font-roboto md:mx-auto mx-5 py-8 px-4 md:px-16 lg:px-24">
       <h2 className="text-2xl font-semibold mb-4">Thank you for your order!</h2>
       <p>
         Your Order has been placed successfully you will receive an email
@@ -36,7 +36,7 @@ const Order = ({ order }) => {
           <span className="font-semibold">${order.totalPrice}</span>
         </div>
       </div>
-      <div className="mt-6">
+      <div className="mt-6 flex text-xs flex justify-between">
         <button className="bg-green-500 text-white  py-2 px-4 hover:bg-green-600">
           Order Tracking
         </button>

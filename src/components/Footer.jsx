@@ -7,12 +7,12 @@ const Footer = () => {
         <div className='flex flex-col justify-center items-center gap-3 my-10'>
         <h3 className='text-2xl'>Join The Paper Lovers Club</h3>
         <p className='font-roboto'>Get updates on what's new</p>
-        <div className='flex flex-col w-3/4 gap-2'>
+        <div className='flex flex-col w-full px-5 md:w-3/4 gap-2'>
             <label className='font-roboto'>Email *</label>
             <input type="email" name='email' className='border border-black w-full py-2' required/>
         </div>
-        <div className='w-3/4 flex'>
-            <div className='flex gap-2 items-center w-3/4'>
+        <div className='md:w-3/4 px-5 flex'>
+            <div className='flex gap-2 items-center w-full md:w-3/4'>
                 <input type="checkbox" className='w-4 h-4 outline-none' required />
                 <span>Yes, subscribe me to your newsletter</span>
             </div>
@@ -61,7 +61,7 @@ const Footer = () => {
     
         </div>
         <hr className='bg-black h-[1px] outline-none border-none'/>
-        <div className='flex mt-5 items-center text-xs md:text-lg justify-center'>
+        <div className='flex mt-5 items-center text-[10px] md:text-lg justify-center'>
             <p>© 2025 by Lou Paperie. Developed by Musty and Designed by Wix</p>
         </div>
     </div>
