@@ -6,6 +6,7 @@ import logo from './logo.png';
 import search_icon from './search-icon.png'
 import empty_cart from './empty-cart.png'
 import about_bg from './about-bg.png'
+import cart from './cart.png'
 
 import note_cover1 from './note-cover1.png'
 import note_cover2 from './note-cover2.png'
@@ -72,6 +73,7 @@ export const assets = {
   logo,
   search_icon,
   empty_cart,
+  cart,
   note_cover1, note_cover2, note_cover3, note_cover4, note_cover5, note_cover6, note_cover7, note_cover8,
   notebook1, notebook2, notebook3, notebook4, notebook5, notebook6, notebook7, notebook8,
   print1, print2, print3, print4, print5, print6, print7, print8,

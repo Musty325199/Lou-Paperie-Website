@@ -152,8 +152,8 @@ const Navbar = () => {
                 activeLink === 'cart' ? 'flex text-gray-400 text-lg' : "w-full flex text-lg hover:text-gray-400 duration-300"
               }`}
             >
-              Cart {products.length > 0 && (
-                <p className="text-xl ml-2">({products.length})</p>
+              <img src={assets.cart} width={30} alt="cart" className="relative" /> {products.length > 0 && (
+                <p className="text-[11px] font-bold rounded-full bg-red-400 flex items-center justify-center text-white w-4 h-4 ml-5 absolute ">{products.length}</p>
               )}
             </Link>
             </div>
